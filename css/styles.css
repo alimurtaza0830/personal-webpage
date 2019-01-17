@@ -257,6 +257,9 @@ b.max-bold {
   background-size: cover;
   z-index: 1;
   background-image: url(../../images/slider-3-1920x1080.jpg);
+  -webkit-transition: background-image 0.5s ease-in-out;
+  -moz-transition: background-image 0.5s ease-in-out;
+  transition: background-image 0.5s ease-in-out;
 }
 
 .intro-section:before {
